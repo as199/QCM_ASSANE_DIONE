@@ -1,12 +1,12 @@
 <?php 
 session_start();
-//unset($_SESSION['moncores']);
+
 if(empty($_SESSION['status'])){
    header("location:../index.php");
    exit();
 }
 
-//unset($_SESSION['trouver']);
+
 $_SESSION['points']=0;
  $_SESSION['score']=0;
 $_SESSION['photos']= $_SESSION['photo'];
@@ -223,6 +223,19 @@ $interdit = file_get_contents('json/trouver.json');
     .inputgener{
       font-size: x-large;
     font-weight: 700;
+    }
+    #quitter{
+      height: 65px;
+    clear: both;
+    margin-top: 330px;
+    }
+    #btnquitter{
+      height: 45px;
+    width: 30%;
+    margin-top: 9px;
+    margin-left: 35%;
+    background-color: bisque;
+    border-radius: 5px;
     }
   </style>
   <title>Document</title>
@@ -460,8 +473,13 @@ $interdit = file_get_contents('json/trouver.json');
               </table>
             </div>
           </div>
+          <div id="quitter">
+          <a href="terminer.php"><input type="submit" value="Quitter" id="btnquitter" onclick="if(!confirm('Voulez-vous vraiment vous quitter cette partie ?')) return false;"></a>
         </div>
+        </div>
+        
       </div>
+
       <?php   ?>
     </div>
 
