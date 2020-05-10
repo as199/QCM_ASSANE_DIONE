@@ -1,0 +1,63 @@
+[
+    {
+        "prenom": "Assane",
+        "nom": "Dione",
+        "login": "admin",
+        "password": "admin1234",
+        "photo": "assane.jpg",
+        "type": "adminitrateur",
+        "email": "Dioneassane0290@gmail.com",
+        "id": "10042020222805"
+    },
+    {
+        "prenom": "Fatou",
+        "nom": "Sene",
+        "login": "fatou",
+        "password": "fatou12345",
+        "photo": "fatou.jpg",
+        "type": "joueur",
+        "email": "fatou@gmail.com",
+        "id": "10042020223526"
+    },
+    {
+        "prenom": "fama",
+        "nom": "toure",
+        "login": "fama",
+        "password": "fama12345",
+        "photo": "ic-ajout-active.png",
+        "type": "joueur",
+        "email": "fama@gmail.com",
+        "id": "16042020230918"
+    },
+    {
+        "prenom": "diana",
+        "nom": "faye",
+        "login": "diana",
+        "password": "diana12345",
+        "photo": "Capture d\u2019\u00e9cran (1).png",
+        "type": "joueur",
+        "email": "diana@gmail.com",
+        "id": "21042020022931"
+    },
+    {
+        "prenom": "malick",
+        "nom": "diouf",
+        "login": "malick",
+        "password": "malick1234",
+        "photo": "HP1.jpg",
+        "type": "joueur",
+        "email": "malick@gmail.com",
+        "id": "21042020191453"
+    },
+    
+    {
+        "prenom": "Prince",
+        "nom": "Sane",
+        "login": "prince",
+        "password": "prince12345",
+        "photo": "GBWA-20190811185746.jpg",
+        "type": "joueur",
+        "email": "prince@gmail.com",
+        "id": "30042020000048"
+    }
+]
