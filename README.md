@@ -9,7 +9,7 @@ Pour installer le jeu et l’installer en local il faut d’abord cloner le repo
 	Le lien GitHub du projet
 https://github.com/as199/QCM_ASSANE_DIONE.git
 	Le lien d’hébergement du projet
-https://dionejeuquiz.000webhostapp.com/
+http://senquiz.freevar.com
 	Tous les paramètres de connexion pour le teste du projet (Login et mot de passe Admin)
 Login : admin
 Mot de passe : admin
