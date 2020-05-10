@@ -124,12 +124,12 @@ if(!empty($user)){
             $user= json_encode($user);
             file_put_contents('./json/score.json', $user);
      }
-// }else{
-//     $user[] = $message;
-//     $user= json_encode($user);
-//     file_put_contents('../json/score.json', $user);
+ }else{
+     $user[] = $message;
+    $user= json_encode($user);
+     file_put_contents('../json/score.json', $user);
 
-// }
+ }
 
 /************enregistrement des questions déja jour pour la modification et la suppression************/
 $tab = file_get_contents('./json/dejajouer.json');
