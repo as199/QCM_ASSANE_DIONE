@@ -1,5 +1,5 @@
 <?php session_start() ;
-set_time_limit(0); 
+
 if(empty($_SESSION['status'])){
    header("location:../index.php");
    exit();
@@ -98,10 +98,12 @@ $score=$_SESSION['moncores'];
     $message['score']=$_SESSION['moncores'];
 $user = file_get_contents('./json/score.json');
 $user =json_decode($user,true);
-var_dump($user);
+
 $p=0;
-$m=count($user);
-//var_dump($user[0]);
+if(!empty($user)){
+ $m=count($user);
+}
+
  if(!empty($user)){
      for ($f=0; $f <$m ; $f++) { 
          if($user[$f]['prenom']==$prenom && $user[$f]['nom']==$nom  && $user[$f]['id']==$id ){
